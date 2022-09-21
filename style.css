@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgrey;
+   }
+header {
+    margin-top: 5px;
+    width: 100%;
+    height: 10vh;
+    background-color: lightgray
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background-color: lightgray;
+    justify-content: space-between;
+}
+section{
+    width: 40vw;
+    height: 80vh;
+    background-color: lightgray;
+}
+
+.section1 {
+    width: 100%;
+}
+.input-texto{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 20px;
+    background-color: lightgray;
+    border-style: none;
+}
+.botones{
+    height: 30%;
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.encriptar {
+    width: 30%;
+    height: 30%;
+    color:white;
+    background-color: rgb(5, 5, 89);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.section2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.contenedor-imagen{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60%;
+    padding-top: 80px;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: lightgray;
+}
+.ocultar{
+    display: none;
+}
+
+.mensaje{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 20px;
+}
+
+.copiar{
+    background-color: rgb(5, 5, 89);
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    height: 10%;
+    width: 80%;
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
